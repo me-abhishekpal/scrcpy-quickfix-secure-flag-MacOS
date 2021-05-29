@@ -10,10 +10,10 @@ If you have any issues running the below commands, make sure you've done this st
 Mac OS
 Install the packages with Homebrew:
 
-# runtime dependencies
+**runtime dependencies**
 brew install sdl2 ffmpeg
 
-# client build dependencies
+**client build dependencies**
 brew install pkg-config meson
 
 
