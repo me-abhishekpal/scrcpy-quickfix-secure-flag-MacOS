@@ -11,14 +11,18 @@ Mac OS
 Install the packages with Homebrew:
 
 **runtime dependencies**
-brew install sdl2 ffmpeg
+
+_brew install sdl2 ffmpeg_
 
 **client build dependencies**
-brew install pkg-config meson
+
+_brew install pkg-config meson_
 
 
 **Clone this repo**
 cd into the folder and run the commands according to your need:
+
+_cd <path-to-this-donwloaded-repo>_
 
 **Run without installing:**
 ./run x [options]
