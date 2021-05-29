@@ -1,0 +1,148 @@
+Build started at 2021-05-29T19:25:45.882322
+Main binary: /usr/local/opt/python@3.9/bin/python3.9
+Build Options: -Db_lto=true -Dbuildtype=release -Dstrip=True
+Python system: Darwin
+The Meson build system
+Version: 0.58.0
+Source dir: /Users/abhee/Downloads/scrcpy-master
+Build dir: /Users/abhee/Downloads/scrcpy-master/x
+Build type: native build
+Project name: scrcpy
+Project version: 1.17
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /Users/abhee/Downloads/scrcpy-master/x/meson-private/sanitycheckc.c -o /Users/abhee/Downloads/scrcpy-master/x/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /Users/abhee/Downloads/scrcpy-master/x/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (clang 12.0.5 "Apple clang version 12.0.5 (clang-1205.0.22.9)")
+C linker for the host machine: cc ld64 650.9
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /Users/abhee/Downloads/scrcpy-master/x/meson-private/sanitycheckc.c -o /Users/abhee/Downloads/scrcpy-master/x/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /Users/abhee/Downloads/scrcpy-master/x/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (clang 12.0.5 "Apple clang version 12.0.5 (clang-1205.0.22.9)")
+C linker for the build machine: cc ld64 650.9
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/local/bin/pkg-config (0.29.2)
+Determining dependency 'libavformat' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libavformat` -> 0
+58.76.100
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libavformat` -> 0
+-I/usr/local/Cellar/ffmpeg/4.4_1/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavformat` -> 0
+-L/usr/local/Cellar/ffmpeg/4.4_1/lib -lavformat
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavformat` -> 0
+-L/usr/local/Cellar/ffmpeg/4.4_1/lib -lavformat
+Running compile:
+Working directory:  /Users/abhee/Downloads/scrcpy-master/x/meson-private/tmp9vy7nb9v
+Command line:  cc /Users/abhee/Downloads/scrcpy-master/x/meson-private/tmp9vy7nb9v/testfile.c -o /Users/abhee/Downloads/scrcpy-master/x/meson-private/tmp9vy7nb9v/output.exe -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /Users/abhee/Downloads/scrcpy-master/x/meson-private/tmp0ttthewx
+Command line:  cc /Users/abhee/Downloads/scrcpy-master/x/meson-private/tmp0ttthewx/testfile.c -o /Users/abhee/Downloads/scrcpy-master/x/meson-private/tmp0ttthewx/output.obj -c -O0 -Werror=unknown-warning-option -Werror=unused-command-line-argument -Werror=ignored-optimization-argument --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ programs: =/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+libraries: =/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5
+
+Compiler stderr:
+ 
+Run-time dependency libavformat found: YES 58.76.100
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libavcodec' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libavcodec` -> 0
+58.134.100
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libavcodec` -> 0
+-I/usr/local/Cellar/ffmpeg/4.4_1/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavcodec` -> 0
+-L/usr/local/Cellar/ffmpeg/4.4_1/lib -lavcodec
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavcodec` -> 0
+-L/usr/local/Cellar/ffmpeg/4.4_1/lib -lavcodec
+Run-time dependency libavcodec found: YES 58.134.100
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libavutil' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion libavutil` -> 0
+56.70.100
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags libavutil` -> 0
+-I/usr/local/Cellar/ffmpeg/4.4_1/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavutil` -> 0
+-L/usr/local/Cellar/ffmpeg/4.4_1/lib -lavutil
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs libavutil` -> 0
+-L/usr/local/Cellar/ffmpeg/4.4_1/lib -lavutil
+Run-time dependency libavutil found: YES 56.70.100
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'sdl2' with pkg-config executable '/usr/local/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --modversion sdl2` -> 0
+2.0.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --cflags sdl2` -> 0
+-D_THREAD_SAFE -I/usr/local/include/SDL2
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs sdl2` -> 0
+-L/usr/local/lib -lSDL2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/local/bin/pkg-config --libs sdl2` -> 0
+-L/usr/local/lib -lSDL2
+Run-time dependency sdl2 found: YES 2.0.14
+Configuring config.h using configuration
+Program ./scripts/build-wrapper.sh found: YES (/Users/abhee/Downloads/scrcpy-master/server/./scripts/build-wrapper.sh)
+Program scripts/run-scrcpy.sh found: YES (/Users/abhee/Downloads/scrcpy-master/scripts/run-scrcpy.sh)
+Build targets in project: 3
+
+Found ninja-1.10.2 at /usr/local/bin/ninja

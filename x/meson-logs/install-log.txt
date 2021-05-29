@@ -1,0 +1,5 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/usr/local/bin/scrcpy
+/usr/local/share/scrcpy/scrcpy-server
+/usr/local/share/man/man1/scrcpy.1

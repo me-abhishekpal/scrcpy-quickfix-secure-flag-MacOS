@@ -1,0 +1,16 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- not a real Android application, it is run by app_process manually -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.genymobile.scrcpy"
+5    android:versionCode="20"
+6    android:versionName="1.17" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/abhee/Downloads/scrcpy-master/server/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/abhee/Downloads/scrcpy-master/server/src/main/AndroidManifest.xml
+11
+12    <application />
+13
+14</manifest>

@@ -1,0 +1,146 @@
+[
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_main.c.o -MF app/scrcpy.p/src_main.c.o.d -o app/scrcpy.p/src_main.c.o -c ../app/src/main.c",
+    "file": "../app/src/main.c",
+    "output": "app/scrcpy.p/src_main.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_cli.c.o -MF app/scrcpy.p/src_cli.c.o.d -o app/scrcpy.p/src_cli.c.o -c ../app/src/cli.c",
+    "file": "../app/src/cli.c",
+    "output": "app/scrcpy.p/src_cli.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_command.c.o -MF app/scrcpy.p/src_command.c.o.d -o app/scrcpy.p/src_command.c.o -c ../app/src/command.c",
+    "file": "../app/src/command.c",
+    "output": "app/scrcpy.p/src_command.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_control_msg.c.o -MF app/scrcpy.p/src_control_msg.c.o.d -o app/scrcpy.p/src_control_msg.c.o -c ../app/src/control_msg.c",
+    "file": "../app/src/control_msg.c",
+    "output": "app/scrcpy.p/src_control_msg.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_controller.c.o -MF app/scrcpy.p/src_controller.c.o.d -o app/scrcpy.p/src_controller.c.o -c ../app/src/controller.c",
+    "file": "../app/src/controller.c",
+    "output": "app/scrcpy.p/src_controller.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_decoder.c.o -MF app/scrcpy.p/src_decoder.c.o.d -o app/scrcpy.p/src_decoder.c.o -c ../app/src/decoder.c",
+    "file": "../app/src/decoder.c",
+    "output": "app/scrcpy.p/src_decoder.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_device.c.o -MF app/scrcpy.p/src_device.c.o.d -o app/scrcpy.p/src_device.c.o -c ../app/src/device.c",
+    "file": "../app/src/device.c",
+    "output": "app/scrcpy.p/src_device.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_device_msg.c.o -MF app/scrcpy.p/src_device_msg.c.o.d -o app/scrcpy.p/src_device_msg.c.o -c ../app/src/device_msg.c",
+    "file": "../app/src/device_msg.c",
+    "output": "app/scrcpy.p/src_device_msg.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_event_converter.c.o -MF app/scrcpy.p/src_event_converter.c.o.d -o app/scrcpy.p/src_event_converter.c.o -c ../app/src/event_converter.c",
+    "file": "../app/src/event_converter.c",
+    "output": "app/scrcpy.p/src_event_converter.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_file_handler.c.o -MF app/scrcpy.p/src_file_handler.c.o.d -o app/scrcpy.p/src_file_handler.c.o -c ../app/src/file_handler.c",
+    "file": "../app/src/file_handler.c",
+    "output": "app/scrcpy.p/src_file_handler.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_fps_counter.c.o -MF app/scrcpy.p/src_fps_counter.c.o.d -o app/scrcpy.p/src_fps_counter.c.o -c ../app/src/fps_counter.c",
+    "file": "../app/src/fps_counter.c",
+    "output": "app/scrcpy.p/src_fps_counter.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_input_manager.c.o -MF app/scrcpy.p/src_input_manager.c.o.d -o app/scrcpy.p/src_input_manager.c.o -c ../app/src/input_manager.c",
+    "file": "../app/src/input_manager.c",
+    "output": "app/scrcpy.p/src_input_manager.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_opengl.c.o -MF app/scrcpy.p/src_opengl.c.o.d -o app/scrcpy.p/src_opengl.c.o -c ../app/src/opengl.c",
+    "file": "../app/src/opengl.c",
+    "output": "app/scrcpy.p/src_opengl.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_receiver.c.o -MF app/scrcpy.p/src_receiver.c.o.d -o app/scrcpy.p/src_receiver.c.o -c ../app/src/receiver.c",
+    "file": "../app/src/receiver.c",
+    "output": "app/scrcpy.p/src_receiver.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_recorder.c.o -MF app/scrcpy.p/src_recorder.c.o.d -o app/scrcpy.p/src_recorder.c.o -c ../app/src/recorder.c",
+    "file": "../app/src/recorder.c",
+    "output": "app/scrcpy.p/src_recorder.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_scrcpy.c.o -MF app/scrcpy.p/src_scrcpy.c.o.d -o app/scrcpy.p/src_scrcpy.c.o -c ../app/src/scrcpy.c",
+    "file": "../app/src/scrcpy.c",
+    "output": "app/scrcpy.p/src_scrcpy.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_screen.c.o -MF app/scrcpy.p/src_screen.c.o.d -o app/scrcpy.p/src_screen.c.o -c ../app/src/screen.c",
+    "file": "../app/src/screen.c",
+    "output": "app/scrcpy.p/src_screen.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_server.c.o -MF app/scrcpy.p/src_server.c.o.d -o app/scrcpy.p/src_server.c.o -c ../app/src/server.c",
+    "file": "../app/src/server.c",
+    "output": "app/scrcpy.p/src_server.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_stream.c.o -MF app/scrcpy.p/src_stream.c.o.d -o app/scrcpy.p/src_stream.c.o -c ../app/src/stream.c",
+    "file": "../app/src/stream.c",
+    "output": "app/scrcpy.p/src_stream.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_tiny_xpm.c.o -MF app/scrcpy.p/src_tiny_xpm.c.o.d -o app/scrcpy.p/src_tiny_xpm.c.o -c ../app/src/tiny_xpm.c",
+    "file": "../app/src/tiny_xpm.c",
+    "output": "app/scrcpy.p/src_tiny_xpm.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_video_buffer.c.o -MF app/scrcpy.p/src_video_buffer.c.o.d -o app/scrcpy.p/src_video_buffer.c.o -c ../app/src/video_buffer.c",
+    "file": "../app/src/video_buffer.c",
+    "output": "app/scrcpy.p/src_video_buffer.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_net.c.o -MF app/scrcpy.p/src_util_net.c.o.d -o app/scrcpy.p/src_util_net.c.o -c ../app/src/util/net.c",
+    "file": "../app/src/util/net.c",
+    "output": "app/scrcpy.p/src_util_net.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_util_str_util.c.o -MF app/scrcpy.p/src_util_str_util.c.o.d -o app/scrcpy.p/src_util_str_util.c.o -c ../app/src/util/str_util.c",
+    "file": "../app/src/util/str_util.c",
+    "output": "app/scrcpy.p/src_util_str_util.c.o"
+  },
+  {
+    "directory": "/Users/abhee/Downloads/scrcpy-master/x",
+    "command": "cc -Iapp/scrcpy.p -Iapp -I../app -I../app/src -I/usr/local/Cellar/ffmpeg/4.4_1/include -I/usr/local/include/SDL2 -flto -fcolor-diagnostics -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_THREAD_SAFE -MD -MQ app/scrcpy.p/src_sys_unix_command.c.o -MF app/scrcpy.p/src_sys_unix_command.c.o.d -o app/scrcpy.p/src_sys_unix_command.c.o -c ../app/src/sys/unix/command.c",
+    "file": "../app/src/sys/unix/command.c",
+    "output": "app/scrcpy.p/src_sys_unix_command.c.o"
+  }
+]
