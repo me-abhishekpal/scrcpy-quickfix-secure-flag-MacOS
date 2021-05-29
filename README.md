@@ -2,14 +2,14 @@
 Build for MacOs against issue of Crash on Android 12 Developer Preview 1, added quickfix secure flag DONOTMERGE
 
 
-# Clone this repo
-# cd into the folder and issue the commands accordingly:
+**Clone this repo**
+cd into the folder and issue the commands accordingly:
 
-# Run without installing:
+**Run without installing:**
 ./run x [options]
 
 
-# Install
+**Install**
 After a successful build, you can install scrcpy on the system:
 
 sudo ninja -Cx install
@@ -22,5 +22,5 @@ This installs three files:
 
 You can then run scrcpy.
 
-# Uninstall
+**Uninstall**
 sudo ninja -Cx uninstall  # without sudo on Windows
