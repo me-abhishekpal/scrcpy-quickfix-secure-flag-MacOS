@@ -33,11 +33,13 @@ _cd path-to-this-downloaded-repo_
 
 
 **Run without installing:**
+
 ./run x [options]
 
 
 **Install**
-After a successful build, you can install scrcpy on the system:
+
+You can install this build of scrcpy on the system:
 
 sudo ninja -Cx install
 
